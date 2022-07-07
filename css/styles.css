@@ -1,0 +1,33 @@
+:root {
+  --background-upper: #5e81d1;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: var(--background-upper);
+}
+
+.header__elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__element {
+  list-style: none;
+  padding: 10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
