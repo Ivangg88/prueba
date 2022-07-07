@@ -1,5 +1,6 @@
 :root {
   --background-upper: #5e81d1;
+  --background-second-level: #f87500;
 }
 * {
   box-sizing: border-box;
@@ -30,4 +31,11 @@ body {
 .header__link {
   text-decoration: none;
   color: #000;
+}
+
+.main-container__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  background-color: var(--background-second-level);
 }
