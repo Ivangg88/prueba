@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+  background-color: #ff8d27;
 }
 
 .header {
@@ -33,9 +34,21 @@ body {
   color: #000;
 }
 
+.main-container {
+  height: 100%;
+}
+
 .main-container__header {
   display: flex;
   justify-content: space-between;
   padding: 18px;
   background-color: var(--background-second-level);
+}
+
+.main-container__icon {
+  font-size: 40px;
+}
+
+.main-container__text {
+  font-size: 30px;
 }
